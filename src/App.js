@@ -22,7 +22,7 @@ export default class App extends Component {
                 q: searchTerm,
                 part: 'snippet',
                 maxResults: 5,
-                key: 'AIzaSyC61uxim-vfSmwiD1eUXHKRQB72abCmmRY' 
+                key: '[GOOGLE API KEY]' 
             }})
         this.setState({
             videos: response.data.items,
